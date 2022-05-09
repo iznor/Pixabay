@@ -58,6 +58,7 @@ function App() {
         {/* Image grid area (Images display as 3*3) */}
         <div className="grid">{renderList()}</div>
         {/* Page number area */}
+        <p>Category: {category}</p>
         <p>Page: {pageNum}</p>
       </div>
     </>

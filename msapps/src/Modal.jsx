@@ -1,6 +1,5 @@
 import "./Modal.scss";
 import "./App";
-import { useState, useEffect } from "react";
 
 function Modal({setPageNum, displayCategories, setDisplayCategories, setCategory, image}) {
   const categories = ['Work','Sports', 'Skateboard', 'Music', 'Cooking']; // list of all categories, easily add more.
